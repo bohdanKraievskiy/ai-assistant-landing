@@ -1,0 +1,109 @@
+.pricing-section {
+    padding: 100px 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .badge {
+    color: #3B82F6;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  
+  .title {
+    font-size: 36px;
+    color: var(--foreground);
+    margin-bottom: 60px;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #F9F9FB;
+    border-radius: 24px;
+    padding: 32px 24px;
+    width: 320px;
+    color: var(--foreground);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .highlight {
+    border-top: 6px solid #3B82F6;
+  }
+  
+  .label {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #3B82F6;
+    color: var(--background);
+    padding: 4px 12px;
+    font-size: 12px;
+    border-radius: 12px;
+  }
+  
+  .plan-name {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .price {
+    font-size: 32px;
+  }
+  
+  .price span {
+    font-size: 14px;
+    font-weight: normal;
+    color: #808080;
+  }
+  
+  .note {
+    font-size: 14px;
+    color: #808080;
+    line-height: 1.5;
+  }
+  
+  .features {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .button {
+    margin-top: auto;
+    background: #3B82F6;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: var(--background);
+    cursor: pointer;
+  }
+  
+
+  .without-price {
+    font-size: 14px;
+    font-weight: normal;
+    color: #808080;
+    margin-bottom: 12vh;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .card {
+      background: #181818;
+    }
+  }

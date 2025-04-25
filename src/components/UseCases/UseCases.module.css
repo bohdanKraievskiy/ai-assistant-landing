@@ -1,0 +1,85 @@
+.cases-section {
+    padding: 100px 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--foreground);
+    margin-bottom: 12px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #808080;
+    margin-bottom: 60px;
+  }
+  
+  .cases-grid {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .case-card {
+    background: #F9F9FB;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 24px;
+    width: 300px;
+    color: var(--foreground);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+  }
+  
+  .circle-placeholder {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #3B82F6;
+  }
+  
+  .case-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--foreground);
+  }
+  
+  .case-description {
+    font-size: 14px;
+    color: #808080;
+    line-height: 1.5;
+  }
+  
+  .case-link {
+    background: #DFE4F9;
+    padding: 6px 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #60a5fa;
+    text-decoration: none;
+    width: fit-content;
+  }
+  
+
+  @media (prefers-color-scheme: dark) {
+    .case-link {
+      background: #1B1E2A;
+    }
+  }

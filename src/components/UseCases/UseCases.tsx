@@ -2,7 +2,7 @@ import style from './UseCases.module.css'
 
 const cases = [
   {
-    avatar: 'usecase.png',
+    avatar: 'usecases/usecase1.png',
     title: 'Запись на Тантра-массаж Дубай Москва Бали',
     description: 'Консультирование по услугам / продажи сеансов',
     link: '@leyakoba',
@@ -15,7 +15,7 @@ const cases = [
     link: '@LeyaAssistent',
   },
   {
-    avatar: 'usecase.png',
+    avatar: 'usecases/usecase2.png',
     title: 'Карманный психолог / Анны Смирновой - бесплатно 7 дней',
     description:
       'Психологическая помощь – первые 7 дней бесплатно / выставление счетов на оплату клиентам / рассылка по клиентам с уведомлениями',

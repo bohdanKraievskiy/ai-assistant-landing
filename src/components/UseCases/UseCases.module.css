@@ -82,4 +82,10 @@
     .case-link {
       background: #1B1E2A;
     }
+
+
+    .case-card{
+      background: #000000;
+      border: 1px solid #616161
+    }
   }
